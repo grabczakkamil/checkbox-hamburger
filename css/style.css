@@ -1,0 +1,142 @@
+body {
+    background: #222;
+    color: #fff;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Crafty Girls', cursive;
+}
+header {
+    text-align: center;
+}
+.burger {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.burger-ingredients {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+.burger-picture {
+    width: 50px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    z-index: 0;
+}
+
+.bun-1-show {
+    width: 250px;
+    height: 80px;
+    border-radius: 60px 60px 3px 3px;
+    background-color: #f6b96d;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6b96d), to(#b2772f));
+    background-image: -webkit-linear-gradient(top, #f6b96d, #b2772f);
+    background-image: -moz-linear-gradient(top, #f6b96d, #b2772f);
+    background-image: linear-gradient(to bottom, #f6b96d, #b2772f);
+}
+
+.sauce {
+    width: 250px;
+    height: 5px;
+    background-color: red;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CD2C14), to(#67160A));
+    background-image: -webkit-linear-gradient(top, #CD2C14, #67160A);
+    background-image: -moz-linear-gradient(top, #CD2C14, #67160A);
+    background-image: linear-gradient(to bottom, #CD2C14, #67160A);
+    border-radius: 2px;
+}
+
+.pickles {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.pickle {
+    width: 70px;
+    height: 10px;
+    background-color: #827316;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#827316), to(#47380d));
+    background-image: -webkit-linear-gradient(top, #827316, #47380d);
+    background-image: -moz-linear-gradient(top, #827316, #47380d);
+    background-image: linear-gradient(to bottom, #827316, #47380d);
+    border-radius: 2px;
+}
+
+.cheese {
+    width: 250px;
+    height: 5px;
+    background-color: #fad002;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f7dc56), to(#fad002));
+    background-image: -webkit-linear-gradient(top, #f7dc56, #fad002);
+    background-image: -moz-linear-gradient(top, #f7dc56, #fad002);
+    background-image: linear-gradient(to bottom, #f7dc56, #fad002);
+    border-radius: 2px;
+}
+
+.patties {
+    width: 250px;
+    height: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7a3b1e), to(#54240e));
+    background-image: -webkit-linear-gradient(top, #7a3b1e, #54240e);
+    background-image: -moz-linear-gradient(top, #7a3b1e, #54240e);
+    background-image: linear-gradient(to bottom, #7a3b1e, #54240e);
+    border-radius: 5px;
+}
+
+.onions {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.onion {
+    width: 100px;
+    height: 5px;
+    background-color: #fdf1cb;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fdf1cb));
+    background-image: -webkit-linear-gradient(top, #fff, #fdf1cb);
+    background-image: -moz-linear-gradient(top, #fff, #fdf1cb);
+    background-image: linear-gradient(to bottom, #fff, #fdf1cb);
+    border-radius: 2px;
+}
+
+.lettuce {
+    width: 250px;
+    height: 10px;
+    background-color: #a9b23f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dfe686), to(#a9b23f));
+    background-image: -webkit-linear-gradient(top, #dfe686, #a9b23f);
+    background-image: -moz-linear-gradient(top, #dfe686, #a9b23f);
+    background-image: linear-gradient(to bottom, #dfe686, #a9b23f);
+    border-radius: 2px;
+}
+
+
+.bun-2 {
+    width: 250px;
+    height: 40px;
+    background-color: #f6b96d;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6b96d), to(#b2772f));
+    background-image: -webkit-linear-gradient(top, #f6b96d, #b2772f);
+    background-image: -moz-linear-gradient(top, #f6b96d, #b2772f);
+    background-image: linear-gradient(to bottom, #f6b96d, #b2772f);
+    border-radius: 3px;
+}

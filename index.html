@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CheckboxBurger</title>
+   <link href="https://fonts.googleapis.com/css?family=Crafty+Girls|Love+Ya+Like+A+Sister|Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Simply burger generator</h1>
+    </header>
+    <div class="burger">
+        <div class="burger-ingredients">
+            <ul>
+                <li>
+                    <input type="checkbox" name="ingredient" id="ingredient">
+                    <label for="ingredient">Ingredient</label>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="top-roll" id="top-roll">
+                            <label for="top-roll">Top Roll</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="ketchup" id="ketchup">
+                            <label for="ketchup">Ketchup</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="pickles" id="pickles">
+                            <label for="pickles">Pickles</label>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="1-pickle" id="1-pickle">
+                                    <label for="1-pickle">Pickles</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="1-extra-pickle" id="1-extra-pickle">
+                                    <label for="1-extra-pickle">Extra Pickles</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="2-extra-pickle" id="2-extra-pickle">
+                                    <label for="2-extra-pickle"> Super Extra Pickles</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="cheese" id="cheese">
+                            <label for="cheese">Cheese</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="meat" id="meat">
+                            <label for="meat">Meat</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="onion" id="onion">
+                            <label for="onion">Onion</label>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="onion-ring" id="onion-ring">
+                                    <label for="onion-ring">1 onion ring</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="-extra-onion-ring" id="-extra-onion-ring">
+                                    <label for="extra-onion-ring">1 extra onion ring</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="salad" id="salad">
+                            <label for="salad">Salad</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="bottom-roll" id="bottom-roll">
+                            <label for="bottom-roll">Bottom Roll</label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="burger-picture">
+            <div class="bun-1"></div>
+            <div class="sauce"></div>
+            <div class="pickles">
+                <div class="pickle"></div>
+                <div class="pickle"></div>
+                <div class="pickle"></div>
+            </div>
+            <div class="cheese"></div>
+            <div class="patties"></div>
+            <div class="onions">
+                <div class="onion"></div>
+                <div class="onion"></div>
+            </div>
+            <div class="lettuce"></div>
+            <div class="bun-2"></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
