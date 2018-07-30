@@ -1,7 +1,6 @@
 body {
     background: #222;
     color: #fff;
-    width: 1000px;
     display: flex;
     flex-direction: column;
     font-family: 'Crafty Girls', cursive;
@@ -10,15 +9,15 @@ header {
     text-align: center;
 }
 .burger {
-    width: 800px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .burger-ingredients {
     font-size: 18px;
+    margin: 0 50px 0 0;
 }
 
 ul {
@@ -26,34 +25,32 @@ ul {
 }
 
 .burger-picture {
-    width: 50px;
-    height: 240px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-content: center;
+    align-items: center;
     z-index: 0;
+    margin: 0 0 0 50px;
 }
 
 .bun-1-show {
     width: 250px;
-    height: 80px;
-    border-radius: 60px 60px 3px 3px;
-    background-color: #f6b96d;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6b96d), to(#b2772f));
-    background-image: -webkit-linear-gradient(top, #f6b96d, #b2772f);
-    background-image: -moz-linear-gradient(top, #f6b96d, #b2772f);
-    background-image: linear-gradient(to bottom, #f6b96d, #b2772f);
+    height: 70px;
+    border-radius: 70px 70px 3px 3px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d8903e), to(#e6b884));
+    background-image: -webkit-linear-gradient(top, #b17633, #d8903e, #e6b884);
+    background-image: -moz-linear-gradient(top, #b17633, #d8903e, #e6b884);
+    background-image: linear-gradient(to bottom, #b17633, #d8903e, #e6b884);
 }
 
-.sauce {
+.ketchup-show {
     width: 250px;
-    height: 5px;
-    background-color: red;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#CD2C14), to(#67160A));
+    height: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a50f0f), to(#e21414));
     background-image: -webkit-linear-gradient(top, #CD2C14, #67160A);
     background-image: -moz-linear-gradient(top, #CD2C14, #67160A);
-    background-image: linear-gradient(to bottom, #CD2C14, #67160A);
+    background-image: linear-gradient(to bottom, #a50f0f, #e21414);
     border-radius: 2px;
 }
 
@@ -66,21 +63,19 @@ ul {
 
 }
 
-.pickle {
-    width: 70px;
-    height: 10px;
-    background-color: #827316;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#827316), to(#47380d));
-    background-image: -webkit-linear-gradient(top, #827316, #47380d);
-    background-image: -moz-linear-gradient(top, #827316, #47380d);
-    background-image: linear-gradient(to bottom, #827316, #47380d);
+.pickle-show {
+    width: 60px;
+    height: 15px;
+    background-image: -webkit-gradient(circle, #827316, #47380d);
+    background-image: -webkit-radial-gradient(#827316, #47380d);
+    background-image: -moz-radial-gradient(#827316, #47380d);
+    background-image: radial-gradient( #827316, #47380d);
     border-radius: 2px;
 }
 
-.cheese {
+.cheese-show {
     width: 250px;
-    height: 5px;
-    background-color: #fad002;
+    height: 10px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f7dc56), to(#fad002));
     background-image: -webkit-linear-gradient(top, #f7dc56, #fad002);
     background-image: -moz-linear-gradient(top, #f7dc56, #fad002);
@@ -88,14 +83,14 @@ ul {
     border-radius: 2px;
 }
 
-.patties {
-    width: 250px;
-    height: 20px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#7a3b1e), to(#54240e));
-    background-image: -webkit-linear-gradient(top, #7a3b1e, #54240e);
-    background-image: -moz-linear-gradient(top, #7a3b1e, #54240e);
-    background-image: linear-gradient(to bottom, #7a3b1e, #54240e);
-    border-radius: 5px;
+.meat-show {
+    width: 255px;
+    height: 35px;
+    background-image: -webkit-gradient(circle, #5b2608, #431c06);
+    background-image: -webkit-radial-gradient(#5b2608, #431c06);
+    background-image: -moz-radial-gradient(#5b2608, #431c06);
+    background-image: radial-gradient(#5b2608, #431c06);
+    border-radius: 12px;
 }
 
 .onions {
@@ -107,9 +102,9 @@ ul {
 
 }
 
-.onion {
-    width: 100px;
-    height: 5px;
+.onion-show {
+    width: 90px;
+    height: 12px;
     background-color: #fdf1cb;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fdf1cb));
     background-image: -webkit-linear-gradient(top, #fff, #fdf1cb);
@@ -118,25 +113,24 @@ ul {
     border-radius: 2px;
 }
 
-.lettuce {
+.salad-show {
     width: 250px;
     height: 10px;
-    background-color: #a9b23f;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#dfe686), to(#a9b23f));
-    background-image: -webkit-linear-gradient(top, #dfe686, #a9b23f);
-    background-image: -moz-linear-gradient(top, #dfe686, #a9b23f);
-    background-image: linear-gradient(to bottom, #dfe686, #a9b23f);
+    background-image: -webkit-gradient(circle, #117000, #169000);
+    background-image: -webkit-radial-gradient(#117000, #169000);
+    background-image: -moz-radial-gradient(#117000, #169000);
+    background-image: radial-gradient(#117000, #169000);
     border-radius: 2px;
 }
 
 
-.bun-2 {
+.bun-2-show {
     width: 250px;
-    height: 40px;
-    background-color: #f6b96d;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6b96d), to(#b2772f));
-    background-image: -webkit-linear-gradient(top, #f6b96d, #b2772f);
-    background-image: -moz-linear-gradient(top, #f6b96d, #b2772f);
-    background-image: linear-gradient(to bottom, #f6b96d, #b2772f);
-    border-radius: 3px;
+    height: 30px;
+   background-image: -webkit-gradient(linear, left bottom, left top, from(#d8903e), to(#e6b884));
+    background-image: -webkit-linear-gradient(bottom, #b17633, #d8903e, #e6b884);
+    background-image: -moz-linear-gradient(bottom, #b17633, #d8903e, #e6b884);
+    background-image: -moz-linear-gradient(bottom, #b17633, #d8903e, #e6b884);
+    background-image: linear-gradient(to top, #b17633, #d8903e, #e6b884);
+    border-radius: 3px 3px 16px 16px;
 }
